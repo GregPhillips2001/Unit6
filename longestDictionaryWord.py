@@ -4,8 +4,8 @@
 
 dictionary = open('engmix.txt')
 
-word = 1
+word = 0
 for words in dictionary:
-    if word < words:
+    if word < len(words):
         word = words
 print(word)
