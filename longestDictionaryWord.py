@@ -12,4 +12,5 @@ for w in dictionary:
         l = length
         word = w
 print("The longest word is", word)
+print(word, 'has', len(word), 'letters')
 
