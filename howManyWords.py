@@ -8,9 +8,9 @@ dictionary = open('engmix.txt')
 words = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 for word in dictionary:
-    for i in range(
-    if len(word) == 1:
-        wordCount += 1
+    for i in range(1,100):
+        if len(word) == i:
+            words[i-1] += 1
         
 print('There are', wordCount, 'two letter words in the dictionary.')
 
