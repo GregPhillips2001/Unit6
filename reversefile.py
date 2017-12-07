@@ -4,6 +4,8 @@
 
 file = open('longestDictionaryWord.py')
 
-file.reverse()
+lines = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+for l in file:
+    file.reverse()
 
 print(file)
