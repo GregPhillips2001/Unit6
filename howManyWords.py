@@ -5,10 +5,11 @@
 dictionary = open('engmix.txt')
 
 #finding number of words
-wordCount = 0 
+words = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 for word in dictionary:
-    if len(word) == 2:
+    for i in range(
+    if len(word) == 1:
         wordCount += 1
         
 print('There are', wordCount, 'two letter words in the dictionary.')
