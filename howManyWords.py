@@ -8,6 +8,9 @@ dictionary = open('engmix.txt')
 wordCount = 0 
 
 for word in dictionary:
-    
-    wordCount += 1
+    if len(word) == 1:
+        wordCount += 1
+        
+print('There are', wordCount, '1 letter words in the dictionary.')
+
 
