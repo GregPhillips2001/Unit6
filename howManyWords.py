@@ -9,8 +9,9 @@ words = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 for w in dictionary:
     length = len(w)
-    if length == 2: 
-        words[0] += 1
+    for i in range(1,30)
+    if length == i: 
+        words[i-1] += 1
             
 
 print('There are', words[0], 'one letter words in the dictionary.')
