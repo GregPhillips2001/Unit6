@@ -4,6 +4,6 @@
 
 file = open('longestDictionaryWord.py')
 
-reverse(file)
+file.reverse()
 
 print(file)
