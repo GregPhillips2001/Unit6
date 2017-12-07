@@ -11,6 +11,6 @@ for word in dictionary:
     if len(word) == 1:
         wordCount += 1
         
-print('There are', wordCount, '1 letter words in the dictionary.')
+print('There are', wordCount, 'one letter words in the dictionary.')
 
 
