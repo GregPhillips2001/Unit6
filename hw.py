@@ -25,4 +25,4 @@ list = []
 for w in dictionary:
     list.append[w.strip()]
 num = input('enter a number, ')
-print('enter a number, ')
+print(list[num-1])
