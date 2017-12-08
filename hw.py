@@ -7,11 +7,12 @@ dictionary = open('engmix.txt')
 
 word = input('enter a word, ')
 
+yes = False
 for w in dictionary:
-    yes = false
     if word == w: 
-        yes = true
-if yes == true:
+        yes = True
+        break
+if yes == True:
     print(word, 'is not in the dictionary')
 else:
     print(word, 'is in the dictionary')
