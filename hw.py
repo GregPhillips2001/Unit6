@@ -25,11 +25,16 @@ list = []
 for w in dictionary:
     list.append(w.strip())
 num = int(input('enter a number, '))
-print(list[num-1])"""
+print(list[num-1])
 
 #exclamation point
 
 file = open('howManyWords.py')
 
 for line in file:
-    print(line.strip(), '!')
+    print(line.strip(), '!')"""
+    
+#greatest number of times
+
+
+
