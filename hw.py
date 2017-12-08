@@ -8,8 +8,10 @@ dictionary = open('engmix.txt')
 word = input('enter a word, ')
 
 for w in dictionary:
+    yes = false
     if word == w: 
-        break
-    else:
-        print(word, 'is not in the dictionary')
-print(word, 'is in the dictionary')
+        yes = true
+if yes == true:
+    print(word, 'is not in the dictionary')
+else:
+    print(word, 'is in the dictionary')
