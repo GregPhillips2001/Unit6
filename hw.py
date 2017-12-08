@@ -19,3 +19,10 @@ else:
     print(word, 'is not in the dictionary')
 
 #dictionary list
+dictionary = open('engmix.txt')
+list = []
+
+for w in dictionary:
+    list.append[w.strip()]
+num = input('enter a number, ')
+print('enter a number, ')
