@@ -9,4 +9,6 @@ word = input('enter a word, ')
 for w in dictionary:
     if word in w: 
         break
+    else:
+        print(word, 'is not in the dictionary')
 print(word, 'is in the dictionary')
