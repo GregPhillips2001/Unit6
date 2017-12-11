@@ -5,6 +5,6 @@
 dictionary = open('engmix.txt')
 
 for w in dictionary:
-    if w.strip() != ''
-    if w.srtip()[0] == 'g'and w.srtip()[-1] == 'p':
+    if w.strip() != '':
+        if w.srtip()[0] == 'g'and w.srtip()[-1] == 'p':
             print(w)
