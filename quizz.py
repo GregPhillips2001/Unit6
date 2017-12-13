@@ -37,12 +37,12 @@ dictionary = open('engmix.txt')
 list = []
 for w in dictionary:
     list.append(w.strip())
-num = len(dictionary[:])
+num = len(list[:])
 middle = num/2
 if middle%2 == 0:
-    print(words[middle-1], words[middle])
+    print(list[middle-1], list[middle])
 else:
-        print(words[middle])
+        print(list[middle])
 
             
             
