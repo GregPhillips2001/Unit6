@@ -9,4 +9,4 @@ for w in dictionary:
     if w.strip() != '':
         if w.strip()[0] == 'r':
             wordcount += 1
-print('There are', wordCount, 'words in the dictionary that start with r.')
+print('There are', wordcount, 'words in the dictionary that start with r.')
