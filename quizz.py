@@ -15,3 +15,8 @@ print('There are', wordcount, 'words in the dictionary that start with r.')"""
 #program 3
 dictionary = open('engmix.txt')
 number = int(input('enter a number; '))
+
+for w in dictionary:
+    if len(w) == number: 
+        print(w)
+        break
