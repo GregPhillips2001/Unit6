@@ -21,8 +21,8 @@ for w in dictionary:
         print(w)
         break"""
         
-#program 3
-dictionary = open('engmix.txt')
+#program 4
+"""dictionary = open('engmix.txt')
 
 wordcount = 0
 letter = input('enter a letter; ')
@@ -30,6 +30,19 @@ for w in dictionary:
     if w.strip() != '':
         if letter not in w:
             wordcount += 1
-print('There are', wordcount, 'words in the dictionary do not have the letter', letter)
+print('There are', wordcount, 'words in the dictionary do not have the letter', letter)"""
+
+#program 5
+dictionary = open('engmix.txt')
+list = []
+for w in dictionary:
+    list.append(w.strip())
+num = len(dictionary[:])
+middle = num/2
+if middle%2 == 0:
+    print(words[middle-1], words[middle])
+else:
+        print(words[middle])
+
             
             
