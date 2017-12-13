@@ -28,7 +28,7 @@ wordcount = 0
 letter = input('enter a letter; ')
 for w in dictionary:
     if w.strip() != '':
-        if letter in w == False:
+        if letter not in w:
             wordcount += 1
 print('There are', wordcount, 'words in the dictionary do not have the letter', letter)
             
