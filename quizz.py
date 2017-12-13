@@ -25,7 +25,7 @@ for w in dictionary:
 dictionary = open('engmix.txt')
 
 wordcount = 0
-letter = input('enter a ; ')
+letter = input('enter a letter; ')
 for w in dictionary:
     if w.strip() != '':
         if letter in w == False:
