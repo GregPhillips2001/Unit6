@@ -33,7 +33,7 @@ for w in dictionary:
 print('There are', wordcount, 'words in the dictionary do not have the letter', letter)"""
 
 #program 5
-dictionary = open('engmix.txt')
+"""dictionary = open('engmix.txt')
 list = []
 for w in dictionary:
     list.append(w.strip())
@@ -42,7 +42,7 @@ middle = num/2
 if middle%2 == 0:
     print(list[middle-1], list[middle])
 else:
-        print(list[middle])
+        print(list[middle])"""
 
             
             
